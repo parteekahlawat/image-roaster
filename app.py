@@ -10,7 +10,6 @@ import time
 from google.api_core.exceptions import ResourceExhausted
 from langchain_core.prompts import PromptTemplate
 
-from IPython.display import Audio
 
 load_dotenv(find_dotenv())
 
