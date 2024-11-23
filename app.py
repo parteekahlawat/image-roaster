@@ -9,10 +9,7 @@ import os
 import time
 from google.api_core.exceptions import ResourceExhausted
 from langchain_core.prompts import PromptTemplate
-from langchain.chains import LLMChain
-from langchain_community.llms import OpenAI
 
-import requests
 from IPython.display import Audio
 
 load_dotenv(find_dotenv())
